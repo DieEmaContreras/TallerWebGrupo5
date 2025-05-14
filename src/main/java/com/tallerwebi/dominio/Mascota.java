@@ -9,23 +9,23 @@ public class Mascota {
     private int edad;
     private String nombreDueño;
 
-    public int getId (){
+    public int getId() {
         return id;
     }
 
-    public void setId(int id){
+    public void setId(int id) {
         this.id = id;
     }
 
-    public String getNombre (){
+    public String getNombre() {
         return nombre;
     }
 
-    public void setNombre (String nombre) {
+    public void setNombre(String nombre) {
         this.nombre = nombre;
     }
 
-    public String getEspecie (){
+    public String getEspecie() {
         return especie;
     }
 
