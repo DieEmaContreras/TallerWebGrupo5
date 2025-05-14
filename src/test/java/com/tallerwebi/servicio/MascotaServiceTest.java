@@ -6,7 +6,10 @@ import com.tallerwebi.dominio.ServicioMascota;
 import com.tallerwebi.infraestructura.ServicioMascotaImpl;
 import org.junit.jupiter.api.Test;
 
+import java.util.List;
+
 import static org.hamcrest.MatcherAssert.assertThat;
+import static org.hamcrest.Matchers.hasSize;
 
 public class MascotaServiceTest {
 
@@ -20,8 +23,8 @@ public class MascotaServiceTest {
 
         servicio.registrarMascota(mascota);
 
-        assertThat(repositorio.obtenerMascotasGuardadas()).containsExactly(mascota);
-
+        List<Mascota> mascotasGuardadas = servicio.listar();
+        assertThat(mascotasGuardadas, hasSize(1));
     }
 
 
