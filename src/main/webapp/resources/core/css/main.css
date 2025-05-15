@@ -19,6 +19,19 @@ body {
   text-align: center;
 }
 
+.btn btn-lg btn-primary btn-block{
+
+    margin: 0 2rem;
+    padding: 1rem 2rem;
+    font-size: 1.5rem;
+    background-color: #007bff;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+
 h1{
 	color:#0000FF;
 }
