@@ -7,7 +7,7 @@ public class Mascota {
     private String especie;
     private String raza;
     private int edad;
-    private String nombreDueño;
+    private String nombreDueno;
 
     public int getId() {
         return id;
@@ -49,11 +49,11 @@ public class Mascota {
         this.edad = edad;
     }
 
-    public String getNombreDueño() {
-        return nombreDueño;
+    public String getNombreDueno() {
+        return nombreDueno;
     }
 
-    public void setNombreDueño(String nombreDueño) {
-        this.nombreDueño = nombreDueño;
+    public void setNombreDueño(String nombreDueno) {
+        this.nombreDueno = nombreDueno;
     }
 }
